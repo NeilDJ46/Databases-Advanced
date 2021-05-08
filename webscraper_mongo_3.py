@@ -17,10 +17,10 @@ client = redis.Redis(host = '127.0.0.1', port = 6379)
 
 #Function that we will loop over every minute
 def scraper():
-    hashes = list(map(str, r.lrange("Hash", 0, -1)))
-    times = list(map(str, r.lrange("Time", 0, -1)))
-    btc = list(map(str, r.lrange("Bitcoin value", 0, -1)))
-    dollar = list(map(float, r.lrange("Dollar value", 0, -1)))
+    hashes = list(map(str, client.lrange("Hash", 0, -1)))
+    times = list(map(str, client.lrange("Time", 0, -1)))
+    btc = list(map(str, client.lrange("Bitcoin value", 0, -1)))
+    dollar = list(map(float, client.lrange("Dollar value", 0, -1)))
     max_dollar = max(dollar)
     index = dollar.index(maxd)
     max_hash = hashes[index]

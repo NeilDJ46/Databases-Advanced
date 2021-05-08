@@ -18,7 +18,7 @@ client = redis.Redis(host = '127.0.0.1', port = 6379)
 def scraper():
     records = client.get("HashValues")
     print(records)
-    Sort the records list by the value of the Bitcoin which sits at position 2 of the list
+    #Sort the records list by the value of the Bitcoin which sits at position 2 of the list
     records.sort(key=lambda x:x[2])
 
     Create a JSON object (post) from our highest value Hash and insert it into our collection "HashValues"

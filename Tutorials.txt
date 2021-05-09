@@ -1,0 +1,18 @@
+Python - https://www.youtube.com/watch?v=XQgXKtPSzUI&t=1777s&ab_channel=DataScienceDojo | https://www.youtube.com/watch?v=ng2o98k983k&t=4s&ab_channel=CoreySchafer
+
+Mongo - https://www.youtube.com/watch?v=-56x56UppqQ&t=398s&ab_channel=TraversyMedia | https://www.youtube.com/watch?v=rE_bJl2GAY8&t=280s&ab_channel=TechWithTim
+
+Redis - https://www.youtube.com/watch?v=Hbt56gFj998&ab_channel=TraversyMedia | https://www.youtube.com/watch?v=dlI-xpQxcuE&ab_channel=R3ap3rPy
+
+Install Ubuntu - https://www.youtube.com/watch?v=S26CKNo4Tgs&ab_channel=GadgetLiv
+
+Python update - https://phoenixnap.com/kb/how-to-install-python-3-ubuntu
+
+Install MongoDB - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+Install MongoDB Compass - https://docs.mongodb.com/compass/current/install/
+
+Docker MongoDB - https://www.youtube.com/watch?v=uklyCSKQ1Po&t=32s&ab_channel=yoursTRULY
+
+Docker Redis - https://www.youtube.com/watch?v=n_F0Q1ZwNcQ&ab_channel=RedisUniversity
+ 

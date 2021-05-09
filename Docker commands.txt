@@ -1,0 +1,25 @@
+Container_id vinden:
+
+sudo docker container ls -a
+
+
+Docker start:
+
+sudo docker container start [Container_id]
+
+Mongo en Redis shell:
+
+sudo exec -it [Container_id/Container_name] sh
+
+Mongo Shell:
+
+mongo localhost:27017
+show dbs
+use DBA
+db.HashValues.find()
+
+Redis Shell:
+
+redis-cli
+keys *
+lrange Hash/Time/BTC/USD 0 -1

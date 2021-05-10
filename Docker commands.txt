@@ -7,9 +7,12 @@ Docker start:
 
 sudo docker container start [Container_id]
 
-Mongo en Redis shell:
+Redis shell:
 
-sudo exec -it [Container_id/Container_name] sh
+sudo docker exec -it [Container_id/Container_name] sh
+redis-cli
+keys *
+lrange Hash/Time/BTC/USD 0 -1
 
 Mongo Shell:
 
@@ -17,9 +20,3 @@ mongo localhost:27017
 show dbs
 use DBA
 db.HashValues.find()
-
-Redis Shell:
-
-redis-cli
-keys *
-lrange Hash/Time/BTC/USD 0 -1
